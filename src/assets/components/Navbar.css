@@ -1,0 +1,17 @@
+.navbar {
+  background-color: #002244; /* Dark Blue */
+  padding: 10px 20px;
+  color: white;
+}
+
+.navbar-brand {
+  font-weight: bold;
+}
+
+.nav-link {
+  color: white;
+}
+
+.nav-link:hover {
+  color: #cccccc;
+}
