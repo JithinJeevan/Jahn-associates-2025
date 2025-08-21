@@ -7,7 +7,9 @@
 .navbar-brand {
   font-weight: bold;
 }
-
+.logo{
+    font-size: 1.75em;;
+}
 .nav-link {
   color: white;
 }

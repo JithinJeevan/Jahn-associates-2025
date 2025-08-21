@@ -88,4 +88,12 @@ img {
     display: block;
     text-align: center;
   }
+  .navbar {
+  background-color: #002147;
+  color: #fff;
+  padding: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
 }
