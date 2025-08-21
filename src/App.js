@@ -3,7 +3,7 @@ import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './assets/components/Navbar';
 import Footer from './assets/components/Footer';
 import Home from './assets/pages/Home';
-import WhatWeDo from './assets/pages/WhatWeDo';
+import Sevices from './assets/pages/Sevices';
 import GalleryPage from './assets/pages/GalleryPage';
 import Contact from './assets/pages/Contact';
 
@@ -15,7 +15,7 @@ function App() {
         <div className="content-wrap">
           <Routes>
             <Route path="/" element={<Home />} />
-            <Route path="/about" element={<WhatWeDo />} />
+            <Route path="/Sevices" element={<Sevices />} />
             <Route path="/gallery" element={<GalleryPage />} />
             <Route path="/contact" element={<Contact />} />
           </Routes>

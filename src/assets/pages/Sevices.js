@@ -1,9 +1,9 @@
 import React from "react";
 
-const WhatWeDo = () => {
+const Sevices = () => {
   return (
     <div>
-      <h3>Core Services</h3>
+      <h3 style={{color: "#002244"}}>Core Services</h3>
       <p>
         We offer a comprehensive range of services tailored to meet diverse
         client needs, including:
@@ -56,7 +56,7 @@ const WhatWeDo = () => {
           </p>
         </li>
       </ul>
-      <h3>Our Experience & Portfolio</h3>
+      <h3 style={{color: "#002244"}}>Our Experience & Portfolio</h3>
       <p>
         With 20 years of industry experience, we have successfully completed a
         wide array of projects across multiple sectors. Our portfolio showcases
@@ -83,4 +83,4 @@ const WhatWeDo = () => {
   );
 };
 
-export default WhatWeDo;
+export default Sevices;

@@ -6,7 +6,7 @@ const Contact = () => {
   return (
      <div className="contact-container">
       <div className="contact-card">
-        <h1 className="contact-title">Contact Us</h1>
+        <h1 className="contact-title" style={{color: "#002244"}}>Contact Us</h1>
 
         <div className="contact-section">
           <p>
