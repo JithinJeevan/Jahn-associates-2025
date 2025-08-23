@@ -2,6 +2,7 @@
   background-color: #002244; /* Dark Blue */
   padding: 10px 20px;
   color: white;
+ 
 }
 
 .navbar-brand {
@@ -16,4 +17,8 @@
 
 .nav-link:hover {
   color: #cccccc;
+}
+.imagelogo{
+  width: 1.5em; /* Or any desired fixed width */
+  height: 1.5em;
 }

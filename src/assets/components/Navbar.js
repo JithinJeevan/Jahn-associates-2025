@@ -1,12 +1,13 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
-
+import image from '../../images/Jahn Logo.jpg';
 const Navbar = () => {
   return (
     <nav className="navbar">
-      <div className="logo">
-        <Link to="/" style={{ marginLeft: '0.5em'}}>JAHN ASSOCIATES</Link>
+      <div className="logo" >
+      <img src={image} alt='logo' className='imagelogo'/>
+        <Link to="/" style={{ marginLeft: '0.25em'}}>JAHN ASSOCIATES</Link>
       </div>
       <ul>
         <li><Link to="/">Home</Link></li>

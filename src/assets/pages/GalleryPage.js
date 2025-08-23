@@ -3,7 +3,7 @@ import GalleryModal from '../components/GalleryModal';
 import image1 from '../../images/Image6.jpg';
 import image2 from '../../images/Image7.jpg';
 import image3 from '../../images/Image8.jpg';
-import image4 from '../../images/Image9.jpg';
+// import image4 from '../../images/Image9.jpg';
 import image6 from '../../images/Image11.jpg';
 import image7 from '../../images/Image12.jpg';
 import image9 from '../../images/Image14.jpg';
@@ -35,7 +35,7 @@ const GalleryPage = () => {
   const [isModalOpen, setIsModalOpen] = useState(false);
   const [selectedImage, setSelectedImage] = useState(null);
 
-  const images = [image1,image2,image3,image4,image6,image7,image9,image10,image11,image12,image13,image14,image15,image16];
+  const images = [image1,image2,image3,image6,image7,image9,image10,image11,image12,image13,image14,image15,image16];
   const imagesR = [imageR1,imageR2,imageR3,imageR4,imageR5,imageR6,imageR7,imageR8,imageR9,imageR10];
   const imagesC =[imageC1,imageC2,imageC3,imageC4,imageC5];
 
