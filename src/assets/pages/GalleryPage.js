@@ -29,6 +29,12 @@ import imageC2 from '../../images/ImageC2.jpg';
 import imageC3 from '../../images/ImageC3.jpg';
 import imageC4 from '../../images/ImageC4.jpg';
 import imageC5 from '../../images/ImageC5.jpg';
+import imageS1 from '../../images/ImageS1.jpg';
+import imageS2 from '../../images/ImageS2.jpg';
+import imageS3 from '../../images/ImageS3.jpg';
+import imageS4 from '../../images/ImageS4.jpg';
+import imageS5 from '../../images/ImageS5.jpg';
+import imageS6 from '../../images/ImageS6.jpg';
 
 
 const GalleryPage = () => {
@@ -38,6 +44,8 @@ const GalleryPage = () => {
   const images = [image1,image2,image3,image6,image7,image9,image10,image11,image12,image13,image14,image15,image16];
   const imagesR = [imageR1,imageR2,imageR3,imageR4,imageR5,imageR6,imageR7,imageR8,imageR9,imageR10];
   const imagesC =[imageC1,imageC2,imageC3,imageC4,imageC5];
+  const imagesS =[imageS1,imageS2,imageS3,imageS4,imageS5,imageS6];
+
 
   const openModal = (image) => {
     setSelectedImage(image);
@@ -106,8 +114,30 @@ const GalleryPage = () => {
           />
         ))}
       </div>
+
+       <h2 style={{
+        display: 'flex',
+        justifyContent: 'center', // Centers horizontally
+        alignItems: 'center',    // Centers vertically
+        color: "#002244",
+        marginTop: "1.5em",
+        textDecoration: 'underline'
+      }}>Site Imges (From The Vault)</h2>
+      <div className="gallery">
+        {imagesS.map((image, index) => (
+          <img
+            key={index}
+            src={image}
+            alt="Gallery"
+            onClick={() => openModal(image)}
+            className="gallery-image"
+          />
+        ))}
+      </div>
       <GalleryModal image={selectedImage} showModal={isModalOpen} closeModal={closeModal} />
     </div>
+
+    
   );
 };
 
